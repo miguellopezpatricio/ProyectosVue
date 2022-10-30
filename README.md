@@ -1,3 +1,4 @@
 ## PRÁCTICAS VUE.js
 
-1. Tags
+1. Tag input
+2. Tablero Kanban
