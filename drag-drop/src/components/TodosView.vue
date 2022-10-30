@@ -69,13 +69,11 @@ function onDrop(event, destination){
   const{boardId, itemId} = JSON.parse(
       event.dataTransfer.getData('text/plain'));
 
-  console.log(board.id, item.id);
-
   const originBoard = boards.find((item) => item.id == boardId);
 
   const originItem = originBoard.items.find((item) => item.id == itemId);
 
-  destination.items.push({...originItem});
+  destination.items.push({ ...originItem });
   originBoard.items =  originBoard.items.filter((item)=> item != originItem);
 
 }
