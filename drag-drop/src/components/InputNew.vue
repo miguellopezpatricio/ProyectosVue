@@ -25,4 +25,12 @@ function handleSubmit(){
 
 <style scoped>
 
+
+form{
+  margin-bottom: 10px;
+}
+input{
+  width: 100%;
+  box-sizing: border-box;
+}
 </style>

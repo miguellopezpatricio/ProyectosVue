@@ -112,6 +112,25 @@ function onDrop(event, destination){
 
 <style scoped>
 
+nav{
+  background-color: black;
+  margin-bottom: 10px;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+nav ul li a{
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
 .boards{
   display: flex;
   gap: 10px;
