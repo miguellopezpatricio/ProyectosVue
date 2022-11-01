@@ -2,4 +2,4 @@
 
 1. Tag input
 2. Tablero Kanban
-3. NEXT: Dividir la cuenta
+3. Dividir la cuenta
